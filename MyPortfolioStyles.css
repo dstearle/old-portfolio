@@ -1,0 +1,213 @@
+body {background-color: #004466; font-family: calibri; margin-left: 0px; margin-right: 0px; margin-bottom: 100px;}
+h3 {color: #008fb3; text-align: left; padding: 10px 10px 10px 10px;}
+h4 {text-align: left; padding: 10px 10px 10px 10px; text-indent: 1.5em;}
+p {padding: 5px 5px 5px 5px; text-indent: 1.5em;}
+ul {padding: 5px 5px 5px 5px; text-indent: 1.5em;}
+
+#nameBanner {background-color: white; color: #004466; padding: 10px 10px 10px 10px; text-align: center;}
+#nameBanner h1{font-family: Yesteryear; font-size: 500%;}
+
+#mainPhotoDiv {text-align: center; padding: 30px 30px 30px 30px;}
+#mainPhoto {border: none; border-radius: 50%;}
+
+#nav {font-family: Yesteryear; padding: 10px 10px 10px 10px; text-align: center;}
+#nav1 {background-color: #004466; border-color: white; border-style: solid; border-width: 3px; color: white; display: inline-block; padding: 10px 100px 10px 100px;}
+#nav2 {background-color: #004466; border-color: white; border-style: solid; border-width: 3px; color: white; display: inline-block; padding: 10px 100px 10px 100px;}
+#nav3 {background-color: #004466; border-color: white; border-style: solid; border-width: 3px; color: white; display: inline-block; padding: 10px 100px 10px 100px;}
+
+#sectionsContainer {background-color: white; margin-left: 19%; margin-right: 19%; padding: 50px 10px 10px 10px;}
+#sectionsContainer p {font-size: 1.25em; margin-left: 5%; margin-right: 5%;}
+#sectionsContainer ul {font-size: 1.25em; margin-left: 5%; margin-right: 5%;}
+
+#languageTable {overflow: hidden; table-layout: fixed; width: 100%;}
+#languageTable td {padding: 20px 25px 20px 25px; text-align: center;}
+
+#collapse3 p {padding: 10px 10px 10px 10px;}
+#collapse3 img {height: 30px; width: 30px;}
+
+#footer {background-color: #262626; bottom: 0px; color: white; font-family: Yesteryear; padding: 5px 0px 5px 0px; position: fixed; text-align: center; width: 100%;}
+
+.captions {color: #008fb3;}
+
+.collapseDivs {background-color: white; border-radius: 15px; display: none; padding: 10px 10px 10px 10px;}
+
+.floatLeft {float: left}
+.floatRight {float: right}
+
+.highlight {color: #ffad33; text-align: left; padding: 10px 10px 10px 10px;}
+.imgClass2 {padding-right: 10px;}
+.imgClass3 {display: block; max-height: 250px; max-width: 400px; padding: 10px;}
+
+.links {color: #008fb3; text-decoration: none;}
+
+.navBars {background-color: white;}
+
+.portfolioImages {display: inline-block; text-align: center}
+.portfolioImagesCenter {margin-left: 10%; margin-right: 10%;}
+
+
+
+
+@media only screen and (max-width: 1024px)
+        
+        {
+            
+            img
+            
+            {
+                height: auto;
+                width: 100%;
+            }
+            
+            #nameBanner
+            
+            {
+                margin-top: 0px;
+            }
+            
+            #nav1
+            
+            {
+                padding: 10px 75px 10px 75px;
+            }
+            
+            #nav2
+            
+            {
+                padding: 10px 75px 10px 75px;
+            }
+            
+            #nav3
+            
+            {
+                padding: 10px 75px 10px 75px;
+            }
+            
+            #sectionsContainer
+            
+            {
+                margin-left: 0%;
+                margin-right: 0%;
+            }
+
+        }
+
+
+@media only screen and (max-width: 768px)
+        
+        {
+            img
+            
+            {
+                height: auto;
+                width: 100%;
+            }
+            
+            #outer br 
+            
+            {
+                display: none;
+            }
+            
+            #nameBanner
+            
+            {
+                margin-top: 0px;
+            }
+            
+            #nav1
+            
+            {
+                padding: 10px 50px 10px 50px;
+            }
+            
+            #nav2
+            
+            {
+                padding: 10px 50px 10px 50px;
+            }
+            
+            #nav3
+            
+            {
+                padding: 10px 50px 10px 50px;
+            }
+            
+            #sectionsContainer
+            
+            {
+                margin-left: 0%;
+                margin-right: 0%;
+            }
+
+        }
+
+@media only screen and (max-width: 600px)
+        
+        {
+            img
+            
+            {
+                height: auto;
+                width: 100%;
+            }
+            
+            #outer br
+            
+            {
+                display: none;
+            }
+            
+            #nameBanner
+            
+            {
+                font-size: 14px;
+                margin-top: 0px;
+            }
+            
+            #nav
+            
+            {
+                margin-left: 0%;
+                margin-right: 0%;
+                padding: 0px 0px 0px 0px;
+            }
+            
+            #nav1
+            
+            {
+                display: block;
+                padding: 5px 8px 5px 8px;
+            }
+            
+            #nav2
+            
+            {
+                display: block;
+                padding: 5px 8px 5px 8px;
+            }
+            
+            #nav3
+            
+            {
+                display: block;
+                padding: 5px 8px 5px 8px;
+            }
+            
+            #sectionsContainer p
+            
+            {
+                font-size: 1em;
+                margin-left: 3%;
+                margin-right: 3%;
+            }
+            
+            #sectionsContainer ul
+            
+            {
+                font-size: 1em;
+                margin-left: 3%;
+                margin-right: 3%;
+            }
+   
+        }

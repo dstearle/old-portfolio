@@ -1,0 +1,23 @@
+body {background-color: #b3ffe0; font-family: calibri; margin-left: 0px; margin-right: 0px;}
+h1 { font-size: 150%;}
+h2 { }
+
+#introBanner { color: #004d2e; text-align: center;}
+#introBanner h2 {font-family: calibri; font-style: italic;}
+
+#nameBanner1 {background-color:  #004d2e; padding: 15px 0px 15px 0px;}
+#nameBanner2 {background-color: white; color: #004d2e; font-family: sans-serif; font-size: 200%; padding: 20px 20px 20px 20px; text-align: center;}
+
+#mainPhotoDiv {text-align: center; padding: 50px 50px 50px 50px;}
+#mainPhoto {border-color: #004d2e; border-radius: 50%; border-style: solid; border-width: 10px;}
+
+#nav {padding: 10px 10px 10px 10px; text-align: center;}
+#nav1 {background-color: white; border-color: #004d2e; border-radius: 15px; border-style: solid; border-width: 7px; display: inline-block; padding: 10px 100px 10px 100px;}
+#nav2 {background-color: white; border-color: #004d2e; border-radius: 15px; border-style: solid; border-width: 7px; display: inline-block; padding: 10px 100px 10px 100px;}
+#nav3 {background-color: white; border-color: #004d2e; border-radius: 15px; border-style: solid; border-width: 7px; display: inline-block; padding: 10px 100px 10px 100px;}
+
+#nav h2 {color: #004d2e;}
+
+#sectionsContainer {background-color: #006652; border color: #006652; border-radius: 15px; border-style: solid; padding: 25px 25px 25px 25px;}
+
+#footer {background-color: #262626; bottom: 0px; color: white; font-family: calibri; padding: 5px 0px 5px 0px; position: fixed; text-align: center; width: 100%;}
